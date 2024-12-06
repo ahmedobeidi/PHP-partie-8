@@ -29,7 +29,7 @@ if (
     return;
 }
 
-setcookie("username", $username, time() + (86400 * 30), "/");
-setcookie("password", $password, time() + (86400 * 30), "/");
+setcookie("username", $username, time() + 3600, "/");
+setcookie("password", $password, time() + 3600, "/");
 
 echo "Cookies are sets";
